@@ -4,7 +4,7 @@
 [![](https://images.microbadger.com/badges/version/softonic/registry-s3.svg)](https://microbadger.com/images/softonic/registry-s3 "Get your own version badge on microbadger.com")
 [![](https://images.microbadger.com/badges/commit/softonic/registry-s3.svg)](https://microbadger.com/images/softonic/registry-s3 "Get your own commit badge on microbadger.com")
 
-Extension of the official image that provides a way to configure S3 as a backend in runtime.
+Provides a way to configure S3 as a backend in runtime.
 
 ## Usage
 
