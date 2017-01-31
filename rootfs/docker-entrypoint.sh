@@ -28,10 +28,10 @@ fi
 
 cat $config_file | \
     sed "s@#STORAGE_PATH#@$STORAGE_PATH@g" |\
-    sed "s/#AWS_BUCKET#/$AWS_BUCKET/g" |\
-    sed "s/#AWS_REGION#/$AWS_REGION/g" |\
-    sed "s/#AWS_KEY#/$AWS_KEY/g" |\
-    sed "s/#AWS_SECRET#/$AWS_SECRET/g" > /tmp/config-registry.yml
+    sed "s@#AWS_BUCKET#@$AWS_BUCKET@g" |\
+    sed "s@#AWS_REGION#@$AWS_REGION@g" |\
+    sed "s@#AWS_KEY#@$AWS_KEY@g" |\
+    sed "s@#AWS_SECRET#@$AWS_SECRET@g" > /tmp/config-registry.yml
 
 mv /tmp/config-registry.yml $config_file
 
