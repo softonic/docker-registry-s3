@@ -1,4 +1,4 @@
-FROM registry:2
+FROM registry:2.6.2
 
 ARG "version=0.1.0-dev"
 ARG "build_date=unknown"
